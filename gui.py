@@ -9,7 +9,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import h5py
 
 # Load your pre-trained model
-model = load_model('Conv_LSTM_model___Date_Time_2024_01_12__11_40_54___Loss_0.8707373738288879___Accuracy_0.7329192757606506.h5')
+model = load_model('Model.h5')
 
 # Constants
 IMG_HEIGHT, IMG_WIDTH = 64, 64
